@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  /* Conectamos las variables que creamos en layout.tsx */
+  --font-sans: var(--font-open-sans), sans-serif;
+  --font-serif: var(--font-playfair), serif;
+
+  /* Tus colores */
+  --color-purple: #6b21a8;
+  --color-purple-light: #8962ff;
+  --color-blue: #626bff;
+  --color-primary: #6b21a8;
+  --color-primary-light: #6b21a8;
+  --color-primary-dark: #4c1d95;
+  --color-accent: #7c3aed;
+  --color-background: #f8fafc;
+  --color-foreground: #1e293b;
+  --color-lightgray: #f1f5f9;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
