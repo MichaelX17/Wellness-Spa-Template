@@ -81,6 +81,7 @@ export default function Hero() {
             src="/spa-hero.png" 
             alt="Mujer relajándose en un spa"
             fill
+            sizes="(min-width: 1024px) 50vw, (min-width: 768px) 60vw, 100vw"
             style={{ objectFit: 'cover' }}
             priority
             className="opacity-90 md:opacity-100" 
